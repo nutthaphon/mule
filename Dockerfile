@@ -8,6 +8,6 @@ RUN tar xzvf mule-standalone-3.8.1.tar.gz
 
 WORKDIR mule-standalone-3.8.1
 
-EXPOSE 8080
+EXPOSE 8080-8090
 
 CMD "bin/mule"
